@@ -79,3 +79,4 @@ Note that this means that if you are in a namespace that's not `default`, you *m
     default:myclass::
        "do something" ifvarclass => "default:myotherclass";
 
+You can always access your current bundle's defined namespace from `$(namespace)` variable.
